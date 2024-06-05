@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="scr/img/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="./scr/css/reset.css">
-    <link rel="stylesheet" href="./scr/css/variables.css">
-    <link rel="stylesheet" href="./scr/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/style.css">
     <title>PlaceHolder</title>
 </head>
 <body>
-    <main class="main">
-        <img class="image"  src="./scr/img/Perfil2.jpeg" alt="Foto de perfil Michel Matoski">
-        <div class="texts">
+    <main class="main flex-column">
+        <div class="profile flex-column">
+            <img src="./src/img/Perfil2.jpeg" alt="Foto de perfil Michel Matoski">
+        <div class="texts flex-column">
             <h2 class="name">Michel Matoski</h2>
-            <p class="state">Rio de Janeiro, Brazil</p>
-            <p>"Front-end developer and gamer"</p>
+            <p class="address">Rio de Janeiro, Brazil</p>
         </div>
-        <div class="link-container">
-            <a class="link" href="#">GitHub</a>
-            <a class="link" href="#">Frontend Mentor</a>
-            <a class="link" href="#">Linkedin</a>
-            <a class="link" href="#">Twitter</a>
-            <a class="link" href="#">Instagram</a>
+        <p class="about">"Front-end developer and gamer"</p>
+        </div>
+        <div class="link-container flex-column">
+            <button class="link" href="#">GitHub</button>
+            <button class="link" href="#">Frontend Mentor</button>
+            <button class="link" href="#">Linkedin</button>
+            <button class="link" href="#">Twitter</button>
+            <button class="link" href="#">Instagram</button>
         </div>
     </main>
 </body>
