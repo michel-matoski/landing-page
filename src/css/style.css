@@ -71,3 +71,14 @@ img {
     background-color: var(--Green);
     color: var(--Grey);
 }
+
+@media (max-width: 400px) {
+    .main {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+    .link {
+        margin: 5px 0px;
+    }
+}
